@@ -43,6 +43,7 @@ test:
   requires:
     - python {{ python_min }}
     - pytest
+    - coverage
 
 about:
   home: https://pypi.org/project/femtoscope/
