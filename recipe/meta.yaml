@@ -1,5 +1,5 @@
 {% set name = "femtoscope" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/femtoscope-{{ version }}.tar.gz
-  sha256: 4219de2e0b8918973830e5076b5f8733bdb115c067a0d2200c5f2028dfe15305
+  sha256: eca4b45df2d5a5d92423d471d9b4437847a74e43efce471cb56f51045a96002a
 
 build:
   noarch: python
